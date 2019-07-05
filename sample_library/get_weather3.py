@@ -4,3 +4,4 @@ payload={'city':130010}
 weather_data = requests.get(api_url, params=payload).json()
 for weather in weather_data['forecasts']:
     print(weather['dateLabel'] + 'の天気は、' + weather['telop'])
+#コメント
