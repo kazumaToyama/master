@@ -1,1 +1,1 @@
-print(sum(range(1, 51)))
+print(sum(range(1, 51)))#a
